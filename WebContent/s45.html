@@ -44,12 +44,12 @@
 	            return;
             }
 
-            if (this.status != 200) {
+            if (this.status != 200) {//200 vuol dire che tutto è andato bene
                 target.value += "[Something went wrong: " + this.status + "]\n";
                 return;
             }
 
-            target.value += this.responseText;
+            target.value += this.responseText;//responseText è una proprietà XHR (XHR<==request=callback)
         }
 
         function getTextDetailed() {

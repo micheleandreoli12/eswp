@@ -1,0 +1,21 @@
+body {
+	background-color: #54f3a4;
+	text-align: center;
+	font: caption;
+}
+img:hover{
+	width: 20%;
+	height: 35%;
+}
+body h3 {
+	font-style: italic;
+	text-align: left;
+	margin: 2% 4% 2% 30%;
+}
+table {
+	margin: 2% 20% 2% 35%;
+}
+
+fieldset {
+	font: caption;
+}
